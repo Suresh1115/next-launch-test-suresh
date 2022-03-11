@@ -13,6 +13,17 @@ body {
     justify-content: space-around;
     align-items: baseline;
 }
+.nav-1 {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    padding: 10px;
+    border: 1px transparent;
+    border-radius: 15px;
+    color: blue;
+    font-size: 30px;
+}
 .text {
 	color: blue;
     font-size: 20px;
@@ -52,7 +63,7 @@ main {
     margin-bottom: 0px;
 }
 .description-heading {
-	margin-top: 15px;
+	margin-top: 10px;
     margin-bottom: 0px;
 }
 .aside-1 {
@@ -62,6 +73,9 @@ main {
 .aside-2 {
 	width: 30%;
     margin-top: 60px;
+}
+.aside-2-para {
+    text-align: left;
 }
 .about-courses {
 	width: 100%;
@@ -126,6 +140,14 @@ main {
     display: flex;
     background-color: white;
 }
+.article-heading {
+    text-align: left;
+    padding-left: 15px;
+}
+.article-para {
+    text-align: left;
+    padding-left: 15px;
+}
 .article-img {
 	width: 150px;
     height: 200px;
@@ -138,22 +160,74 @@ main {
     width: 100%;
     justify-content: space-evenly;
     align-items: baseline;
+    margin-top: 100px;
+    margin-bottom: 100px;
  }
  .footer-section {
  	width: 25%;
+    padding-left: 15px;
+ }
+ .footer-para {
+    text-align: left;
+    padding-left: 10px;
+ }
+ .tag {
+    display: flex;
  }
  ul {
  	list-style-type:none;
  }
  .software-list {
- 	padding-left: 85px;
+ 	padding-left: 78px;
  }
  .institute-list {
- 	padding-left: 110px;
+ 	padding-left: 102px;
  }
  li {
  	margin-top: 10px;
     margin-bottom: 10px;
     text-align: left;
+ }
+ .social-list {
+    display: flex;
+    align-items: baseline;
+    margin-left: 40px;
+ }
+ .icons {
+    padding: 10px;
+    background-color: blue;
+    border: 1px transparent;
+    border-radius: 15px;
+    margin-right: 10px;
+    color: white;
+ }
+ .facebook {
+    height: 10px;
+ }
+ .social {
+    height: 10px;
+    width: 10px;
+ }
+ .terms {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: #f2f2f2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+ .terms-section {
+    display: flex;
+ }
+ .terms-para {
+    margin-left: 15px;
+    padding-left: 15px;
+ }
+ .copyright {
+    text-align: left;
+    margin-left: 30px;
+ }
+ .pvt-ltd {
+    margin-right: 30px;
  }
 /*end footer css */
